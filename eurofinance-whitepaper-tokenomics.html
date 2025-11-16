@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Euro Finance (EURC) – Whitepaper & Tokenomics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f7;
+      color: #111827;
+      line-height: 1.6;
+    }
+    .wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    header {
+      background: #111827;
+      color: #f9fafb;
+      padding: 32px 16px;
+      text-align: center;
+      margin-bottom: 24px;
+      border-radius: 0 0 18px 18px;
+    }
+    header h1 {
+      margin: 0 0 4px;
+      font-size: 32px;
+    }
+    header p {
+      margin: 0;
+      font-size: 15px;
+      opacity: 0.9;
+    }
+    h2 {
+      margin-top: 32px;
+      font-size: 22px;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 4px;
+    }
+    h3 {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    .tagline {
+      font-size: 14px;
+      color: #6b7280;
+      margin-top: 6px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 20px 18px;
+      margin-top: 16px;
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+    }
+    ul {
+      padding-left: 18px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid #e5e7eb;
+      padding: 8px 10px;
+      text-align: left;
+    }
+    th {
+      background: #f3f4f6;
+    }
+    .note {
+      font-size: 12px;
+      color: #6b7280;
+      margin-top: 6px;
+    }
+    .pill {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 999px;
+      background: #e5f0ff;
+      color: #1d4ed8;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 11px;
+      color: #6b7280;
+      text-align: center;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 12px;
+      background: #f3f4f6;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Euro Finance (EURC)</h1>
+    <p>Whitepaper &amp; Tokenomics (Short Version)</p>
+    <p class="tagline">This document is for informational purposes and does not constitute financial or investment advice.</p>
+  </header>
+
+  <div class="wrapper">
+    <section class="card">
+      <span class="pill">1. Overview</span>
+      <h2>Project Summary</h2>
+      <p>
+        Euro Finance (ticker: <strong>EURC</strong>) is a euro‑denominated crypto asset designed for fast, low‑cost transfers
+        and use in decentralized finance (DeFi). The project focuses on providing a simple and transparent infrastructure
+        for cross‑chain payments and on‑chain euro‑based accounting.
+      </p>
+      <p>
+        This short whitepaper describes the basic concept of the project, key principles, and high‑level tokenomics.
+        It is intentionally compact and may be extended with more detailed technical documentation later.
+      </p>
+    </section>
+
+    <section class="card">
+      <span class="pill">2. Token</span>
+      <h2>Token Details</h2>
+      <table>
+        <tr>
+          <th>Parameter</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          <td>Token Name</td>
+          <td>Euro Finance</td>
+        </tr>
+        <tr>
+          <td>Symbol</td>
+          <td>EURC</td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td>Multi‑chain token (BSC, TRON, optionally Arbitrum and other EVM networks)</td>
+        </tr>
+        <tr>
+          <td>Use Cases</td>
+          <td>Payments, transfers, DeFi liquidity, rewards, ecosystem utility</td>
+        </tr>
+      </table>
+      <p class="note">
+        Exact technical parameters (decimals, minting logic, etc.) are defined in the on‑chain smart contracts.
+      </p>
+    </section>
+
+    <section class="card">
+      <span class="pill">3. Contracts</span>
+      <h2>Official Smart Contract Addresses</h2>
+      <p>
+        Only the following contract addresses are considered official by the project. Users should always verify that they
+        interact with the correct contract on the correct network.
+      </p>
+
+      <table>
+        <tr>
+          <th>Network</th>
+          <th>Standard</th>
+          <th>Contract Address</th>
+        </tr>
+        <tr>
+          <td>BNB Smart Chain (BSC)</td>
+          <td>BEP‑20</td>
+          <td><code>0x6ec6968D9869e024c7B05429fFcB8e8794c610c6</code></td>
+        </tr>
+        <tr>
+          <td>TRON</td>
+          <td>TRC‑20</td>
+          <td><code>TUatKTR5CSmEog3K6jRTRySqCB6A8txbBC</code></td>
+        </tr>
+        <tr>
+          <td>Arbitrum (optional)</td>
+          <td>ERC‑20</td>
+          <td><code>0x48f926Cc56fcBc709e0d13b5f92Af60B80Acb52A</code></td>
+        </tr>
+      </table>
+      <p class="note">
+        Replace placeholders above with the actual contract addresses before publishing this document.
+      </p>
+    </section>
+
+    <section class="card">
+      <span class="pill">4. Tokenomics</span>
+      <h2>Tokenomics (Example Structure)</h2>
+      <p>
+        This section provides an example of a transparent tokenomics structure. Percentages and numbers below are
+        placeholders and <strong>must be updated</strong> to match the real configuration of the project before publication.
+      </p>
+
+      <h3>Total Supply</h3>
+      <table>
+        <tr>
+          <th>Metric</th>
+          <th>Value (example)</th>
+        </tr>
+        <tr>
+          <td>Total Supply</td>
+          <td>100,000,000 EURC</td>
+        </tr>
+        <tr>
+          <td>Initial Circulating Supply</td>
+          <td>40,000,000 EURC</td>
+        </tr>
+      </table>
+
+      <h3>Allocation (Example)</h3>
+      <table>
+        <tr>
+          <th>Category</th>
+          <th>Share</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>Liquidity &amp; Market Making</td>
+          <td>40%</td>
+          <td>Liquidity pools on supported DEXes and CEX listings.</td>
+        </tr>
+        <tr>
+          <td>Treasury &amp; Reserves</td>
+          <td>25%</td>
+          <td>Long‑term reserves for stability, integrations, and partnerships.</td>
+        </tr>
+        <tr>
+          <td>Community &amp; Rewards</td>
+          <td>20%</td>
+          <td>Incentives, airdrops, referral programs, and ecosystem rewards.</td>
+        </tr>
+        <tr>
+          <td>Team &amp; Advisors</td>
+          <td>10%</td>
+          <td>Vested over time to align incentives with long‑term development.</td>
+        </tr>
+        <tr>
+          <td>Marketing &amp; Growth</td>
+          <td>5%</td>
+          <td>Promotion, campaigns, and ecosystem expansion.</td>
+        </tr>
+      </table>
+
+      <p class="note">
+        All numbers above are placeholders and do not represent actual tokenomics. Please edit them to reflect the real
+        supply and allocation model of Euro Finance (EURC) before using this document as official technical
+        documentation.
+      </p>
+    </section>
+
+    <section class="card">
+      <span class="pill">5. Utility</span>
+      <h2>Utility and Use Cases</h2>
+      <ul>
+        <li><strong>Cross‑chain transfers:</strong> fast and low‑fee transfers of euro‑denominated value between supported networks.</li>
+        <li><strong>DeFi integrations:</strong> use in liquidity pools, farming, lending, and other DeFi protocols where supported.</li>
+        <li><strong>Payments:</strong> peer‑to‑peer payments, merchant payments (where supported), and internal settlements.</li>
+        <li><strong>Incentives:</strong> staking, loyalty programs, and ecosystem rewards.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <span class="pill">6. Governance &amp; Transparency</span>
+      <h2>Governance &amp; Transparency Principles</h2>
+      <ul>
+        <li>Contract source code is publicly available and can be independently reviewed and audited.</li>
+        <li>Major changes to tokenomics or protocol parameters are announced in advance through official channels.</li>
+        <li>Contract addresses and network information are published on the official website and documentation pages.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <span class="pill">7. Risks</span>
+      <h2>Risks &amp; Disclaimer</h2>
+      <p>
+        Crypto assets involve significant risks, including high volatility, regulatory uncertainty, technology risks,
+        and possible loss of funds. Euro Finance (EURC) does not guarantee profits, price stability, or future value.
+        Users must independently assess their risk tolerance and comply with the regulations of their jurisdictions.
+      </p>
+      <p>
+        Nothing in this document constitutes legal, tax, or investment advice. Participation in the Euro Finance
+        ecosystem is entirely voluntary and at the sole risk of the participant.
+      </p>
+    </section>
+
+    <footer>
+      © Euro Finance (EURC). This is a concise informational document and may be updated or extended in future versions.
+    </footer>
+  </div>
+</body>
+</html>

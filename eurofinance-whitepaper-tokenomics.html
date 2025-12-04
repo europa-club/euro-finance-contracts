@@ -1,206 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Euro Finance (WERC) – Short Whitepaper</title>
+  <meta charset="UTF-8" />
+  <title>Euro Finance (WERC) – Whitepaper & Tokenomics</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px;
+      line-height: 1.6;
+      color: #111827;
+      background: #ffffff;
+    }
+    h1, h2, h3 {
+      color: #111827;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+    h2 {
+      font-size: 22px;
+      margin-top: 32px;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 4px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    p {
+      margin: 8px 0;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      background: #f3f4f6;
+      padding: 2px 4px;
+      border-radius: 3px;
+      font-size: 90%;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid #e5e7eb;
+      padding: 6px 8px;
+      text-align: left;
+    }
+    th {
+      background: #f9fafb;
+    }
+    .note {
+      font-size: 13px;
+      color: #4b5563;
+    }
+    .tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      background: #eff6ff;
+      color: #1d4ed8;
+      margin-right: 8px;
+    }
+  </style>
 </head>
-<body style="max-width: 900px; margin: 0 auto; padding: 24px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #111827; background: #ffffff;">
+<body>
 
-  <header>
-    <h1>Euro Finance (WERC) – Short Whitepaper</h1>
-    <p><strong>Version:</strong> 1.0<br>
-       <strong>Last update:</strong> December 2025</p>
-  </header>
+  <h1>Euro Finance (WERC)</h1>
+  <p>
+    <span class="tag">DeFi Asset</span>
+    <span class="tag">Multi-Chain</span>
+    <span class="tag">WERC</span>
+  </p>
 
-  <section id="overview">
-    <h2>1. Overview</h2>
-    <p><strong>Euro Finance (ticker: WERC)</strong> is a multi-chain euro-themed DeFi asset deployed on BNB Smart Chain (BSC) and Arbitrum (with TRON and other networks planned).</p>
+  <p><strong>Disclaimer:</strong> WERC is <strong>not a stablecoin</strong>, is <strong>not pegged 1:1 to EUR</strong>, and Euro Finance is <strong>not affiliated</strong> with Circle or Euro Coin (EURC). The price of WERC is fully market-driven.</p>
 
-    <p>WERC is <strong>not a stablecoin</strong>, is <strong>not pegged 1:1 to EUR</strong>, and is <strong>not affiliated with Circle or Euro Coin (EURC)</strong>. The price of WERC is market-driven and may deviate significantly from 1 EUR.</p>
+  <h2>1. Overview</h2>
+  <p><strong>Euro Finance (WERC)</strong> is a euro-themed, multi-chain DeFi asset deployed on BNB Smart Chain and Arbitrum One. The token is designed for transfers, liquidity provision, and other DeFi use cases, while explicitly avoiding any representation as an official or collateralized EUR stablecoin.</p>
 
-    <p>The goal of the project is to provide a simple, transparent and flexible on-chain euro-themed asset that can be used in decentralized finance (DeFi), payments, liquidity provision and ecosystem utilities.</p>
+  <p>This document summarizes the core concept of the project, the main technical parameters, and a high-level tokenomics structure. It is intentionally concise and may be extended with more detailed documentation, audits, and governance proposals in future versions.</p>
 
-    <p>This short whitepaper describes the basic concept of the project, key principles, contracts and high-level tokenomics. It is intentionally compact and may be extended with more detailed technical documentation later.</p>
-  </section>
+  <h2>2. Token</h2>
+  <h3>2.1 Basic Parameters</h3>
 
-  <section id="links">
-    <h2>2. Official Links</h2>
-    <p>For security and verification, always use only the official links listed below:</p>
-    <ul>
-      <li><strong>Website:</strong> <a href="https://europa-club.github.io/euro-finance-contracts/" target="_blank" rel="noopener noreferrer">https://europa-club.github.io/euro-finance-contracts/</a></li>
-      <li><strong>Whitepaper / Docs:</strong> <a href="https://europa-club.github.io/euro-finance-contracts/eurofinance-whitepaper-tokenomics.html" target="_blank" rel="noopener noreferrer">https://europa-club.github.io/euro-finance-contracts/eurofinance-whitepaper-tokenomics.html</a></li>
-      <li><strong>CoinMarketCap:</strong> <a href="https://coinmarketcap.com/currencies/euro-finance/" target="_blank" rel="noopener noreferrer">https://coinmarketcap.com/currencies/euro-finance/</a></li>
-      <li><strong>Telegram (community):</strong> <a href="https://t.me/eurofindefi" target="_blank" rel="noopener noreferrer">https://t.me/eurofindefi</a></li>
-      <li><strong>X (Twitter):</strong> <a href="https://x.com/EuroFinanceClub" target="_blank" rel="noopener noreferrer">https://x.com/EuroFinanceClub</a></li>
-      <li><strong>GitHub:</strong> <a href="https://github.com/europa-club/euro-finance-contracts" target="_blank" rel="noopener noreferrer">https://github.com/europa-club/euro-finance-contracts</a></li>
-      <li><strong>Official email:</strong> <a href="mailto:support@europa-club.org">support@europa-club.org</a></li>
-    </ul>
-  </section>
+  <table>
+    <tr><th>Parameter</th><th>Value</th></tr>
+    <tr><td>Project Name</td><td>Euro Finance</td></tr>
+    <tr><td>Token Ticker</td><td><strong>WERC</strong></td></tr>
+    <tr><td>Type</td><td>Multi-chain DeFi token (BSC, Arbitrum; TRON planned)</td></tr>
+    <tr><td>Decimals</td><td>18 (on EVM chains)</td></tr>
+    <tr><td>Use Cases</td><td>Transfers, liquidity, DeFi integrations, ecosystem utility</td></tr>
+  </table>
 
-  <section id="token">
-    <h2>3. Token</h2>
+  <p>Exact technical parameters (such as decimals and functions) are defined in the on-chain smart contracts listed below.</p>
 
-    <h3>3.1. Token Details</h3>
-    <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse;">
-      <tr>
-        <th align="left">Parameter</th>
-        <th align="left">Value</th>
-      </tr>
-      <tr>
-        <td>Project Name</td>
-        <td>Euro Finance</td>
-      </tr>
-      <tr>
-        <td>Token Name</td>
-        <td>Euro Finance</td>
-      </tr>
-      <tr>
-        <td>Ticker / Symbol</td>
-        <td><strong>WERC</strong></td>
-      </tr>
-      <tr>
-        <td>Type</td>
-        <td>Multi-chain token (BEP-20 on BSC, ERC-20 on Arbitrum; TRC-20 on TRON planned)</td>
-      </tr>
-      <tr>
-        <td>Decimals</td>
-        <td>18</td>
-      </tr>
-      <tr>
-        <td>Total Supply</td>
-        <td><strong>55,000,000,000 WERC</strong></td>
-      </tr>
-    </table>
+  <h2>3. Official Smart Contract Addresses</h2>
+  <p>Only the contracts listed in the table below are considered <strong>official</strong> for the current WERC token. Users must always ensure they interact with the correct address and the correct network.</p>
 
-    <h3>3.2. Use Cases</h3>
-    <ul>
-      <li><strong>DeFi liquidity:</strong> participation in liquidity pools, DEX trading pairs and other DeFi protocols (where supported).</li>
-      <li><strong>Transfers &amp; settlements:</strong> fast and low-fee transfers of euro-themed value across supported networks.</li>
-      <li><strong>Payments:</strong> peer-to-peer payments and merchant integrations (where supported).</li>
-      <li><strong>Ecosystem utility:</strong> incentives, rewards, loyalty programs and other utilities inside the Euro Finance ecosystem.</li>
-    </ul>
-  </section>
+  <table>
+    <tr>
+      <th>Network</th>
+      <th>Standard</th>
+      <th>Token Address</th>
+    </tr>
+    <tr>
+      <td>BNB Smart Chain (BSC)</td>
+      <td>BEP-20</td>
+      <td><code>0xA83de2c2A9E0deafA8EE6D116958caCEaD2E7366</code></td>
+    </tr>
+    <tr>
+      <td>Arbitrum One</td>
+      <td>ERC-20</td>
+      <td><code>0x67e610D203bF6B57f491192cC882862ab6aB314d</code></td>
+    </tr>
+  </table>
 
-  <section id="contracts">
-    <h2>4. Official Contracts</h2>
-    <p>Only the following smart contract addresses are considered <strong>official</strong> for the WERC token. Users must always verify that they interact with the correct contract on the correct network.</p>
+  <p class="note">
+    Legacy / old contracts (such as <code>0x602386220fE5Bb7c6f4d5468f102BAa5A7306773</code> on BSC and
+    <code>0xE6F6cc6d9954Bf674b3274a69Ef44D2027bB1ABa</code> on Arbitrum) are considered deprecated and are not used
+    for the current WERC token. They may still exist on chain for historical reasons but should not be treated as active.
+  </p>
 
-    <h3>4.1. Current WERC Contracts</h3>
-    <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse;">
-      <tr>
-        <th align="left">Network</th>
-        <th align="left">Standard</th>
-        <th align="left">Contract Address</th>
-      </tr>
-      <tr>
-        <td>BNB Smart Chain (BSC)</td>
-        <td>BEP-20</td>
-        <td><code>0x602386220fE5Bb7c6f4d5468f102BAa5A7306773</code></td>
-      </tr>
-      <tr>
-        <td>Arbitrum One</td>
-        <td>ERC-20</td>
-        <td><code>0xE6F6cc6d9954Bf674b3274a69Ef44D2027bB1ABa</code></td>
-      </tr>
-      <tr>
-        <td>TRON</td>
-        <td>TRC-20</td>
-        <td><em>To be announced (will be published on the official website)</em></td>
-      </tr>
-    </table>
+  <h2>4. Tokenomics (High-Level)</h2>
+  <p>The numbers below illustrate an example of a transparent tokenomics structure. Exact values, locks and vesting can be refined in updated versions of this document.</p>
 
-    <p>Any address that is not listed above on the official channels of the project must be treated as untrusted.</p>
-  </section>
+  <h3>4.1 Total Supply</h3>
+  <table>
+    <tr><th>Metric</th><th>Value (example)</th></tr>
+    <tr><td>Total Supply</td><td>55,000,000,000 WERC</td></tr>
+    <tr><td>Initial Circulating Supply</td><td>portion available on BSC and Arbitrum liquidity pools</td></tr>
+  </table>
 
-  <section id="tokenomics">
-    <h2>5. Tokenomics (High-Level)</h2>
-    <p>This section provides a high-level structure of WERC tokenomics. Numbers and percentages may be updated as the project evolves; the most recent data is always available via the official website and documentation.</p>
+  <h3>4.2 Example Allocation Model</h3>
+  <table>
+    <tr>
+      <th>Category</th>
+      <th>Share (example)</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>Liquidity &amp; Market Making</td>
+      <td>40%</td>
+      <td>Liquidity pools on DEXes and potential CEX listings.</td>
+    </tr>
+    <tr>
+      <td>Treasury &amp; Reserves</td>
+      <td>25%</td>
+      <td>Long-term reserves for integrations, partnerships, and protocol development.</td>
+    </tr>
+    <tr>
+      <td>Community &amp; Rewards</td>
+      <td>20%</td>
+      <td>Incentives, airdrops, referral programs, and ecosystem campaigns.</td>
+    </tr>
+    <tr>
+      <td>Team &amp; Advisors</td>
+      <td>10%</td>
+      <td>Subject to multi-month/ multi-year vesting to align with long-term growth.</td>
+    </tr>
+    <tr>
+      <td>Marketing &amp; Growth</td>
+      <td>5%</td>
+      <td>Promotion, brand building, and strategic user acquisition.</td>
+    </tr>
+  </table>
 
-    <h3>5.1. Total Supply</h3>
-    <ul>
-      <li><strong>Total supply:</strong> 55,000,000,000 WERC</li>
-      <li><strong>Decimals:</strong> 18</li>
-    </ul>
+  <p class="note">
+    The percentages above are illustrative. The actual distribution, vesting schedules and lockups should be confirmed
+    in the latest official announcement, smart contract configuration, or audit reports.
+  </p>
 
-    <p>A portion of the supply may be <strong>locked in time-locked contracts</strong> on BNB Smart Chain and Arbitrum. Lock addresses and unlock dates will be published transparently (for example, via BscScan / Arbiscan links and on the official website).</p>
+  <h2>5. Utility and Use Cases</h2>
+  <ul>
+    <li><strong>Transfers:</strong> fast, low-cost transfers of euro-themed value between BSC and Arbitrum.</li>
+    <li><strong>Liquidity:</strong> use in liquidity pools and automated market makers on supported DEXes.</li>
+    <li><strong>DeFi integrations:</strong> potential usage in farming, lending, staking and other protocols.</li>
+    <li><strong>Ecosystem rewards:</strong> incentives, loyalty programs, and participation rewards.</li>
+  </ul>
 
-    <h3>5.2. Allocation Structure (Conceptual)</h3>
-    <p><em>Note: exact percentages and allocations may be adjusted. The up-to-date configuration is published on the official website and documentation.</em></p>
+  <h2>6. Governance & Transparency</h2>
+  <ul>
+    <li>Smart contract source code is publicly available on GitHub and can be independently reviewed.</li>
+    <li>Major changes to tokenomics or core parameters are announced through official channels (Telegram, X, website).</li>
+    <li>Official addresses and documentation links are kept up to date in this repository and on explorers.</li>
+  </ul>
 
-    <ul>
-      <li><strong>Liquidity &amp; Market Making:</strong> used to provide liquidity on decentralized exchanges (DEX) and, where applicable, centralized exchanges (CEX), ensuring sufficient depth and healthy markets.</li>
-      <li><strong>Treasury &amp; Reserves:</strong> long-term reserves for protocol development, strategic partnerships, integrations and security.</li>
-      <li><strong>Community &amp; Rewards:</strong> airdrops, referral programs, staking incentives, community campaigns and ecosystem rewards.</li>
-      <li><strong>Team &amp; Advisors (Vested):</strong> allocated with a vesting schedule to align long-term incentives and project sustainability.</li>
-      <li><strong>Marketing &amp; Growth:</strong> promotion, branding, user acquisition, partnerships and ecosystem expansion.</li>
-    </ul>
-  </section>
+  <h2>7. Risks & Disclaimer</h2>
+  <p>Crypto assets carry significant risks, including high volatility, smart contract vulnerabilities, market manipulation and regulatory uncertainty. Euro Finance (WERC) does not guarantee profits, price stability, or future value.</p>
 
-  <section id="utility">
-    <h2>6. Utility and Integrations</h2>
+  <p>Nothing in this document constitutes legal, tax, financial, or investment advice. Users must independently assess their risk tolerance and comply with the laws and regulations of their respective jurisdictions.</p>
 
-    <h3>6.1. Utility</h3>
-    <ul>
-      <li><strong>DeFi integrations:</strong> WERC can be used in liquidity pools, yield farming, lending/borrowing protocols and other DeFi platforms where it is integrated.</li>
-      <li><strong>Cross-chain flows:</strong> as a multi-chain asset, WERC can be bridged or migrated between networks (for example, between BSC and Arbitrum) using official bridges or migration mechanisms announced by the project.</li>
-      <li><strong>Payments and settlements:</strong> where supported, WERC can be used for payments, B2B settlements and internal accounting inside the ecosystem.</li>
-      <li><strong>Incentive layer:</strong> WERC may be used for staking, loyalty programs and other incentive mechanisms decided by the Euro Finance team.</li>
-    </ul>
-  </section>
-
-  <section id="governance">
-    <h2>7. Governance &amp; Transparency</h2>
-    <p>The Euro Finance project follows several core principles:</p>
-    <ol>
-      <li>
-        <strong>Open source &amp; audits:</strong>
-        <ul>
-          <li>Smart contract code is publicly available and can be independently reviewed.</li>
-          <li>Security audits and verifications from third-party auditors are published via official channels.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Clear communication:</strong>
-        <ul>
-          <li>Changes to tokenomics, supply or core protocol parameters are announced in advance via the official website and social channels.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Official information channels:</strong>
-        <ul>
-          <li>Official website and documentation pages.</li>
-          <li>Verified social media channels (Telegram, X/Twitter, etc.).</li>
-          <li>Listings and profiles on CoinMarketCap and other aggregators, once approved.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Locked tokens transparency:</strong>
-        <ul>
-          <li>Any locked or vested allocations are published with on-chain proof (time-lock contracts, vesting contracts) and links on BscScan / Arbiscan / TRON explorers.</li>
-        </ul>
-      </li>
-    </ol>
-  </section>
-
-  <section id="risks">
-    <h2>8. Risks &amp; Disclaimer</h2>
-    <p>Crypto assets involve significant risks, including but not limited to high price volatility, regulatory uncertainty, smart contract vulnerabilities, bridge/relay risks and possible total loss of funds.</p>
-
-    <p>Euro Finance (WERC):</p>
-    <ul>
-      <li>does <strong>not</strong> guarantee profits or yield,</li>
-      <li>does <strong>not</strong> guarantee price stability,</li>
-      <li>does <strong>not</strong> represent an official EUR stablecoin,</li>
-      <li>is <strong>not</strong> affiliated with Circle or Euro Coin (EURC).</li>
-    </ul>
-
-    <p>Nothing in this document constitutes legal, tax or investment advice. Each participant must independently assess their risk tolerance and comply with the regulations of their jurisdiction.</p>
-
-    <p>Participation in the Euro Finance ecosystem is entirely voluntary and at the sole risk of the participant.</p>
-
-    <p>&copy; Euro Finance (WERC). This document may be updated or extended in future versions.</p>
-  </section>
+  <p class="note">© Euro Finance (WERC). This document may be updated or extended in future versions.</p>
 
 </body>
 </html>

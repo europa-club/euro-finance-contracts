@@ -5,8 +5,9 @@ pragma solidity ^0.8.20;
  * @title Euro Finance WERC (BSC)
  * @notice Simple fixed-supply ERC20-like token contract for BNB Smart Chain.
  * @dev Deployed on BNB Smart Chain at:
- *      0x602386220fE5Bb7c6f4d5468f102BAa5A7306773
+ *      0xA83de2c2A9E0deafA8EE6D116958caCEaD2E7366
  */
+
 contract EuroFinanceWERC_BSC {
     string public name = "Euro Finance";
     string public symbol = "WERC";

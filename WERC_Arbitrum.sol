@@ -5,8 +5,9 @@ pragma solidity ^0.8.20;
  * @title Euro Finance WERC (Arbitrum)
  * @notice Simple fixed-supply ERC20-like token contract for Arbitrum One.
  * @dev Deployed on Arbitrum One at:
- *      0xE6F6cc6d9954Bf674b3274a69Ef44D2027bB1ABa
+ *      0x67e610D203bF6B57f491192cC882862ab6aB314d
  */
+
 contract EuroFinanceWERC_Arbitrum {
     string public name = "Euro Finance";
     string public symbol = "WERC";

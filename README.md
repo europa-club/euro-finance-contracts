@@ -29,7 +29,7 @@ Always verify the network and address before interacting.
 ### BNB Smart Chain (BEP-20)
 
 - **Token address:**  
-  `0x602386220fE5Bb7c6f4d5468f102BAa5A7306773`
+  `0xA83de2c2A9E0deafA8EE6D116958caCEaD2E7366`
 - **Source code (this repo):**  
   `contracts/WERC_BSC.sol`  
   https://github.com/europa-club/euro-finance-contracts/blob/main/contracts/WERC_BSC.sol
@@ -37,7 +37,7 @@ Always verify the network and address before interacting.
 ### Arbitrum One (ERC-20)
 
 - **Token address:**  
-  `0xE6F6cc6d9954Bf674b3274a69Ef44D2027bB1ABa`
+  `0x67e610D203bF6B57f491192cC882862ab6aB314d`
 - **Source code (this repo):**  
   `contracts/WERC_Arbitrum.sol`  
   https://github.com/europa-club/euro-finance-contracts/blob/main/contracts/WERC_Arbitrum.sol
@@ -49,14 +49,14 @@ Always verify the network and address before interacting.
 
 ---
 
-## Legacy Contracts
+## Legacy / Old Contracts
 
-Earlier versions of the Euro Finance token are kept here for transparency and historical reference:
+The following contracts are **legacy versions** and are **not used** for the current WERC token:
 
-- `contracts/EuroFinance_BSC.sol` – legacy BSC implementation  
-- `contracts/EuroFinance_TRON.sol` – legacy TRON implementation
+- Old BSC token (legacy EURC / WERC version): `0x602386220fE5Bb7c6f4d5468f102BAa5A7306773`  
+- Old Arbitrum token (legacy EURC / WERC version): `0xE6F6cc6d9954Bf674b3274a69Ef44D2027bB1ABa`
 
-These contracts are **not** used for the current WERC token and should be treated as deprecated unless explicitly stated otherwise in official announcements.
+They are kept only for transparency and historical reference.
 
 ---
 

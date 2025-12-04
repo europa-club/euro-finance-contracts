@@ -68,6 +68,11 @@ They are kept only for transparency and historical reference.
 Additional technical docs, migration guides and audit reports will be added to this repository and to the documentation site as they become available.
 
 ---
+## Security & Audit
+
+The WERC contracts on BNB Smart Chain and Arbitrum have been audited by Dessert Finance.
+
+- Audit report (PDF): https://dessertswap.finance/audits/Euro-Finance-WERC-BSC-ARB-AUDIT.pdf
 
 ## Security & Disclaimer
 

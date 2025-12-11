@@ -28,19 +28,34 @@ Always verify the network and address before interacting.
 
 ### BNB Smart Chain (BEP-20)
 
-- **Token address:**  
-  `0xA83de2c2A9E0deafA8EE6D116958caCEaD2E7366`
-- **Source code (this repo):**  
-  `contracts/WERC_BSC.sol`  
-  https://github.com/europa-club/euro-finance-contracts/blob/main/contracts/WERC_BSC.sol
+**Token address:**  
+`0xA83de2c2A9E0deafA8EE6D116958caCEaD2E7366`
+
+**Max supply:**  
+`55,000,000,000 WERC` (fixed)
+
+**Decimals:**  
+`18`
+
+**Source code (this repo):**  
+`contracts/WERC_BSC.sol`  
+https://github.com/europa-club/euro-finance-contracts/blob/main/contracts/WERC_BSC.sol
+
 
 ### Arbitrum One (ERC-20)
 
-- **Token address:**  
-  `0x67e610D203bF6B57f491192cC882862ab6aB314d`
-- **Source code (this repo):**  
-  `contracts/WERC_Arbitrum.sol`  
-  https://github.com/europa-club/euro-finance-contracts/blob/main/contracts/WERC_Arbitrum.sol
+**Token address:**  
+`0x67e610D203Bf6B57F491192Cc882862AB6Ab314d`
+
+**Max supply:**  
+`55,000,000,000 WERC` (mirrored supply)
+
+**Decimals:**  
+`18`
+
+**Source code (this repo):**  
+`contracts/WERC_Arbitrum.sol`  
+https://github.com/europa-club/euro-finance-contracts/blob/main/contracts/WERC_Arbitrum.sol
 
 ### TRON (TRC-20)
 

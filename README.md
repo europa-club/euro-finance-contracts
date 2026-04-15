@@ -1,101 +1,74 @@
-# Euro Finance (WERC) – Smart Contracts
+# Euro Finance (WERC) — Smart Contracts
 
-This repository contains the smart contracts and documentation for the **Euro Finance (WERC)** multi-chain DeFi asset.
-
-> WERC is **not a stablecoin**, is **not pegged 1:1 to EUR**, and is **not affiliated with Circle or Euro Coin (EURC)**.  
-> The price of WERC is fully market-driven.
+Official smart contract repository for Euro Finance (WERC).
 
 ---
 
-## Official Links
+## ⚠️ Important Disclaimer
 
-For security and verification, always use only the official links listed below:
+WERC is NOT:
+- a stablecoin  
+- pegged to EUR  
+- affiliated with Circle or EURC  
 
-- **Website:** https://europa-club.github.io/euro-finance-contracts/
-- **Whitepaper / Docs:** https://europa-club.github.io/euro-finance-contracts/eurofinance-whitepaper-tokenomics.html
-- **CoinMarketCap:** https://coinmarketcap.com/currencies/euro-finance/
-- **Telegram (community):** https://t.me/eurofindefi
-- **X (Twitter):** https://x.com/EuroFinanceClub
-- **GitHub (org):** https://github.com/europa-club
-- **Official email:** support@europa-club.org
+WERC is a fully market-driven DeFi asset.
 
 ---
 
-## Official WERC Contracts
+## 🔷 Primary Network — Arbitrum One (ERC-20)
 
-Only the contracts listed below are considered **official** for the Euro Finance (WERC) token.  
-Always verify the network and address before interacting.
+Contract:
+0x17d805a3f817e0e4E4d46c59d7c155bD907D8333
+
+Explorer:
+https://arbiscan.io/token/0x17d805a3f817e0e4E4d46c59d7c155bD907D8333
+
+---
+
+## 🔶 Secondary Networks
 
 ### BNB Smart Chain (BEP-20)
+Contract:
+0x1abFa06E7EbE1c647604781EA0495d132714c6E6
 
-**Token address:**  
-`0xA83de2c2A9E0deafA8EE6D116958caCEaD2E7366`
+Explorer:
+https://bscscan.com/token/0x1abFa06E7EbE1c647604781EA0495d132714c6E6
 
-**Max supply:**  
-`55,000,000,000 WERC` (fixed)
-
-**Decimals:**  
-`18`
-
-**Source code (this repo):**  
-`contracts/WERC_BSC.sol`  
-https://github.com/europa-club/euro-finance-contracts/blob/main/contracts/WERC_BSC.sol
-
-
-### Arbitrum One (ERC-20)
-
-**Token address:**  
-`0x67e610D203Bf6B57F491192Cc882862AB6Ab314d`
-
-**Max supply:**  
-`55,000,000,000 WERC` (mirrored supply)
-
-**Decimals:**  
-`18`
-
-**Source code (this repo):**  
-`contracts/WERC_Arbitrum.sol`  
-https://github.com/europa-club/euro-finance-contracts/blob/main/contracts/WERC_Arbitrum.sol
+---
 
 ### TRON (TRC-20)
+Contract:
+TFgKrD5o3vi9EkxkNTNvPFapBqm6KYxHVN
 
-- **Token address:**  
-  To be announced – the official TRON contract address will be published in this repository and on the website after deployment.
-
----
-
-## Legacy / Old Contracts
-
-The following contracts are **legacy versions** and are **not used** for the current WERC token:
-
-- Old BSC token (legacy EURC / WERC version): `0x602386220fE5Bb7c6f4d5468f102BAa5A7306773`  
-- Old Arbitrum token (legacy EURC / WERC version): `0xE6F6cc6d9954Bf674b3274a69Ef44D2027bB1ABa`
-
-They are kept only for transparency and historical reference.
+Explorer:
+https://tronscan.org/#/token20/TFgKrD5o3vi9EkxkNTNvPFapBqm6KYxHVN
 
 ---
 
-## Documentation
+## 🔒 Security
 
-- **Whitepaper / tokenomics (EN):**  
-  https://europa-club.github.io/euro-finance-contracts/eurofinance-whitepaper-tokenomics.html
-
-Additional technical docs, migration guides and audit reports will be added to this repository and to the documentation site as they become available.
+- No mint function  
+- No blacklist  
+- No hidden ownership controls  
+- Fully decentralized and immutable contracts  
 
 ---
-## Security & Audit
 
-The WERC contracts on BNB Smart Chain and Arbitrum have been audited by Dessert Finance.
+## 📎 Official Links
 
-- Audit report (PDF): https://dessertswap.finance/audits/Euro-Finance-WERC-BSC-ARB-AUDIT.pdf
+Website:
+https://werc.finance
 
-## Security & Disclaimer
+CoinMarketCap:
+https://coinmarketcap.com/currencies/euro-finance/
 
-The contracts in this repository are provided as-is.  
-Smart contracts carry inherent risks, including vulnerabilities and potential loss of funds.
+GitHub (website):
+https://github.com/europa-club/werc-website
 
-- Always review the code and on-chain addresses before interacting.
-- Use official links only.
-- Nothing in this repository or documentation constitutes legal, tax or investment advice.
+---
 
-© Euro Finance (WERC).
+## 📌 Notes
+
+Arbitrum One is the official primary network.
+
+All integrations and listings should reference the Arbitrum contract.

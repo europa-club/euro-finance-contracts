@@ -15,13 +15,18 @@ WERC is a fully market-driven DeFi asset.
 
 ---
 
-## 🔷 Primary Network — Arbitrum One (ERC-20)
+## Official Contract (Primary)
 
-Contract:
-0x17d805a3f817e0e4E4d46c59d7c155bD907D8333
+**Network:** Arbitrum One (ERC-20)  
 
-Explorer:
+**Contract Address:**  
+`0x17d805a3f817e0e4E4d46c59d7c155bD907D8333`
+
+**Explorer:**  
 https://arbiscan.io/token/0x17d805a3f817e0e4E4d46c59d7c155bD907D8333
+
+This is the official and primary WERC contract.  
+All listings (CoinMarketCap, Trust Wallet, etc.) must reference this address only.
 
 ---
 
